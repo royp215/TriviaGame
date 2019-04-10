@@ -80,7 +80,7 @@ var triviaGame = {
         $(".answer-container").hide();
         $("#timer-holder").hide();
         $("#stats").hide();
-        $("#questions").text("Are you ready to play Kat's Food Trivia Game?");
+        $("#questions").text("Are you ready to play the Food Trivia Game?");
         $("#yes-btn").append("<button type='button' id='yes' class='btn btn-success'>Yes</button>");
         $("#no-btn").append("<button type='button' id='no' class='btn btn-danger'>No</button>");
         $("#stats-correct-value").text(correct);
